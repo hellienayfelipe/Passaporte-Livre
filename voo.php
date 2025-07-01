@@ -1,13 +1,14 @@
 <?php
 include "cabecalho.php";
 include "banner.php";
-?>
+?> 
 
 <div class="container">
     <h2 class="display-5">Viagens</h2>
     <div class="row">
-
-<?php
+ 
+ 
+        <?php
         include "conexao.php";
  
         $sql = "select * from destinos order by id";
@@ -22,7 +23,7 @@ include "banner.php";
                     <img src="<?= $linha['foto']; ?>" class="card-img-top img-formatada-lista">
                     <div class="card-body">
                         <h5 class="card-title"><?= $linha['nome']; ?></h5>
-                        <p class="card-text preco"><?= $linha['descricao']; ?></p>
+                        <p class="card-text preco">Descrição<?= $linha['descricao']; ?></p>
                         <a href="umaviagem.php?id=<?= $linha['id']; ?>" class="btn btn-outline-danger"><?= $linha['preco']; ?></a>
                     </div>
                 </div>
@@ -35,8 +36,8 @@ include "banner.php";
         ?>
     </div>
 </div>
+ 
 
 <?php
 include "rodape.php";
 ?>
- 

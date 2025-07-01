@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <a href="voo.php">Voos</a>
-    <a href="hospedagem.php">Hospedagem</a>
-    
-</body>
-
+<header>
+        <img src="imagens/logo-agencia.png" class="logo" height="150">
+        <h1>Passaporte-Livre</h1>
+        <nav>
+            <a href="voo.php">Voos -</a>
+            <a href="Hospedagem.php">Hospedagem -</a>
+            <a href="contato.php">Contato</a>
+        </nav>
+    </header>
 </html>

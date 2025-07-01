@@ -10,6 +10,7 @@
 header {
     text-align: center;
     margin-bottom: 10px;
+
 }
 
 .banner {
@@ -18,3 +19,18 @@ header {
     object-fit: cover;
     margin-bottom: 30px;
 }
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer small {
+    display: block;
+}
+
+
